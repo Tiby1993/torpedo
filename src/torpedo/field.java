@@ -1,6 +1,6 @@
-package torpedo;
+//package torpedo;
 
-public class field {
+public final class field {
  private boolean status;
  private boolean open;
  
@@ -31,7 +31,7 @@ public class field {
      
      if(open){
          if(status){
-         resoult="X";     
+         resoult=" X";     
          }
          else{
          resoult="[.]";
